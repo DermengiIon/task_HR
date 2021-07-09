@@ -1,0 +1,7 @@
+<div class="sku">
+    <div *ngIf="statusColor" class="status" [style.backgroundColor]="statusColor"></div>
+    <div class="content">
+        <span>{{sku?.sku}}</span>
+        <div class="default">{{sku?.defaultSku}}</div>
+    </div>
+</div>

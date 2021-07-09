@@ -1,0 +1,15 @@
+:host {
+    .sku-group {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        .join-block {
+            width: 14px;
+            height: 50px;
+            background-color: #203d74;
+            margin: 0 -2px;
+        }
+    }
+}

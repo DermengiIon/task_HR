@@ -1,0 +1,8 @@
+<div class="area-section">
+    <h2>Zona {{number}}</h2>
+    <div class="groups">
+        <ng-container *ngFor="let skuGroup of skuGroups">
+            <app-sku-group [skuGroup]="skuGroup"></app-sku-group>
+        </ng-container>
+    </div>
+</div>

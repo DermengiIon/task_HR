@@ -1,0 +1,7 @@
+<div class="sku-group">
+    <app-sku [sku]="skuGroup[0]" [statusColor]="getStatusColor()"></app-sku>
+    <ng-container *ngFor="let sku of (skuGroup | slice:1)">
+        <div class="join-block"></div>
+        <app-sku [sku]="sku"></app-sku>
+    </ng-container>
+</div>
